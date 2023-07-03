@@ -1,0 +1,214 @@
+/*
+
+main color : #087f5b
+
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: #343a40;
+
+  border-bottom: 6px solid #087f5b;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  column-gap: 80px;
+
+  margin-top: 72px;
+  margin-bottom: 80px;
+}
+
+.hero-h1 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.hero-p {
+  color: #495057;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.hero-button {
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 50px;
+  background-color: #087f5b;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: #099268;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 14px;
+}
+
+.title-h2 {
+  font-size: 36px;
+  margin-bottom: 36px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 90px;
+  margin-bottom: 80px;
+}
+
+.icons {
+  width: 32px;
+  margin-bottom: 20px;
+  color: #087f5b;
+}
+
+.card-title {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 2;
+}
+
+.quote-container {
+  padding: 26px;
+  background-color: #087f5b;
+  color: #fff;
+  border-radius: 14px;
+  margin-bottom: 80px;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 64px;
+}
+
+.quote-img {
+  width: 100%;
+  border-radius: 14px;
+  grid-row: 1/4;
+}
+
+.quote-title {
+  font-size: 22px;
+  font-weight: 700;
+  align-self: center;
+  margin-bottom: 12px;
+}
+
+.blockquote {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 2;
+
+  font-style: italic;
+}
+
+.customers-name {
+  font-size: 16px;
+  color: #e6fcf5;
+}
+
+.product-cards {
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 80px;
+  border-radius: 14px 14px 14px 14px;
+}
+
+.card-product {
+  box-shadow: 0 8px 48px #dee2e6;
+}
+
+.chair-img {
+  width: 100%;
+  border-radius: 14px 14px 0 0;
+  margin-bottom: 32px;
+}
+
+.chair-info {
+  display: inline-block;
+  margin-left: 24px;
+  margin-bottom: 24px;
+}
+
+.chair-title {
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+.text-icon {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 16px;
+}
+
+.chair-icons {
+  width: 24px;
+  color: #087f5b;
+}
+
+.detail-text {
+  font-size: 18px;
+  line-height: 1.4;
+  color: #495057;
+}
+
+.price-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 36px;
+}
+
+.price-text {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.price-button {
+  background-color: #087f5b;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-text {
+  font-size: 14px;
+  margin-bottom: 48px;
+}
